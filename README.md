@@ -55,4 +55,4 @@ GPLv3
 
 + [@RedTea](https://github.com/redteadeveloper)
 
-+ [@YCH-BUP](https://github.com/ych-bup)
++ [@Chanho](https://github.com/ych-bup)
