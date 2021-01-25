@@ -23,12 +23,14 @@ Client.on("message", async message => {
     if (!message.content.startsWith(prefix) || message.author.bot) return;
 
 	const args = message.content.slice(prefix.length).trim().split(/ +/);
-    const command = args.shift().toLowerCase();
+    const command = args.shift().toLowerCase()
     
-    if (!Client.commands.has(command)) return;
+    if (!Client.commands.has(command) && !client.commands.find(cmd => cmd.aliases && cmd.aliases.includes(command))) return
+
+    const cmdExec = Client.commands.get(command) || Client.commands.find(cmd => cmd.aliases && cmd.aliases.includes(command))
 
     try {
-        Client.commands.get(command).execute(message, args);
+        cmdExec.execute(message, args);
     } catch (error) {
         console.error(error);
         message.reply('there was an error trying to execute that command!');
