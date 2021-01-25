@@ -1,9 +1,11 @@
 <h1 align="center">
   <a href="https://github.com/Shio7/Keter"><img src="https://github.com/ych-bup/Binah/blob/index/logo.png?raw=true" alt="Keter" width="200"></a>
   <br>
+  Binah
 </h1>
-<h4 align="center">Discord Bot - WIP</h4>
+<h3 align="center">Discord Bot - WIP</h3>
 
+<p align="center">
   <a href="https://github.com/Shio7/Keter">
     <img src="https://img.shields.io/github/issues/ych-bup/Binah?style=for-the-badge&logo=appveyor"
          alt="Imgshields">
@@ -20,6 +22,8 @@
     <img src="https://img.shields.io/github/license/ych-bup/Binah?style=for-the-badge&logo=appveyor"
          alt="Imgshields">
   </a>
+</p>
+
 <hr>
 <p align="center">
   <a href="#features">Features</a> •
