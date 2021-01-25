@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://github.com/Shio7/Keter"><img src="https://github.com/ych-bup/Binah/blob/index/logo.png?raw=true" alt="Keter" width="200"></a>
+  <a href="https://github.com/Shio7/Keter"><img src="https://github.com/ych-bup/Binah/blob/index/logo.png?raw=true" alt="Keter" width="170"></a>
   <br>
   Binah
 </h1>
